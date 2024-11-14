@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phiếu đăng kí</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th colspan="2">Phiếu đăng ký tham gia chương trình khuyến mại</th>
+            </tr>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" id="fullname"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" id="address"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="number" id="phone"></td>
+            </tr>
+            <tr>
+                <td>Phái</td>
+                <td>
+                    <input type="radio" id="sex" name="gt" value="Nam">
+                    <label for="sex">Nam</label>
+                    <input type="radio" id="sex" name="gt" value="Nữ">
+                    <label for="sex">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td>
+                    <select id="jobs" name="jobs">
+                        <option value="doctor">Bác sĩ</option>
+                        <option value="teacher">Giáo viên</option>
+                        <option value="worker">Công nhân</option>
+                        <option value="farm">Làm ruộng</option>
+                        <option value="others">Khác</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td>
+                    <select id="goods" name="goods">
+                        <option value="kdr">Kem đánh răng</option>
+                        <option value="ncd">Nồi cơm điện</option>
+                        <option value="tv">Tivi</option>
+                        <option value="tl">Tủ lạnh</option>
+                        <option value="ccd">Chảo chống dính</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán</td>
+                <td><input type="number" id="choose"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="submit-row">
+                    <input name="submitButton" type="submit" value="Đồng ý">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
